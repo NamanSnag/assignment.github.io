@@ -1,0 +1,27 @@
+.users-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(113, 113, 113, 0.326);
+    padding: 0px;
+    border-radius: 2rem;
+    margin-bottom: 30px;
+}
+
+#search-input {
+    width: 30vw;
+    min-width: 200px;
+    padding: 8px 20px;
+    outline: none;
+    font-size: 16px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: none;
+    border-radius: 2rem;
+}
